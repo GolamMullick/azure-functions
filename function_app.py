@@ -49,8 +49,8 @@ def process_data(req: func.HttpRequest) -> func.HttpResponse:
         # Return sample data for GET requests
         sample_data = {
             "items": [
-                {"id": 1, "name": "Item 1", "value": 100},
-                {"id": 2, "name": "Item 2", "value": 200},
+                {"id": 1, "name": "Item 1", "value": 100000000000000000},
+                {"id": 2, "name": "Item 2", "value": 20000000000000000000000000000},
                 {"id": 3, "name": "Item 3", "value": 300}
             ],
             "total": 3,
